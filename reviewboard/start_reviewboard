@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# start postgresql
+service postgresql start
+
+# start apache
+service apache2 start
+
+# keep in foreground
+while 1; do skip ; done
